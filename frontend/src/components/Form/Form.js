@@ -25,7 +25,7 @@ function Form({ setRecommendations }) {
 
   return (
     <form
-      className="max-w-md mx-auto p-4 bg-white rounded-lg shadow-md"
+      className="w-full max-w-md mx-auto p-4 bg-white rounded-lg shadow-md"
       onSubmit={handleSubmit}
     >
       <Preferences
