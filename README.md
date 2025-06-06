@@ -1,37 +1,127 @@
-# Recomendador de Produtos RD Station
+## Product Recommender
 
-Este projeto tem como objetivo principal é implementar a lógica de recomendação de produtos RD Station em uma aplicação web existente.
+[🇬🇧 English](#product-recommender-english) | [🇧🇷 Português](#recomendação-produto-português)
 
-## Como Executar
+---
 
-1. Clone o repositório: `git clone <URL_DO_REPOSITORIO>`
-2. Instale as dependências: `yarn install`
-3. Para instalar o projeto, execute o script `./install.sh`
-4. Inicie a aplicação: `yarn start`
+## Product Recommender English
 
-### Scripts Disponíveis
+A product recommendation system built with React, TailwindCSS, and a simulated API using json-server.
 
-- `start`: Inicia a aplicação React em modo de desenvolvimento.
-- `start:frontend`: Inicia apenas a parte frontend da aplicação em modo de desenvolvimento.
-- `start:backend`: Inicia apenas a parte backend da aplicação em modo de desenvolvimento.
-- `dev`: Inicia simultaneamente a parte frontend e backend da aplicação em modo de desenvolvimento.
+📌 Features
 
-## Critérios de Aceite
+- [x] User preference form (multiple choice)
+- [x] Single and multiple product recommendation logic
+- [x] Visual list of recommended products
+- [x] Dynamic badges and icons
+- [x] Modular architecture
+- [x] Unit tests for business logic
 
-1. O serviço de recomendação de produtos deve ser capaz de receber as preferências e funcionalidades desejadas do usuário através de um formulário.
-2. O serviço deve retornar recomendações de produtos com base nas preferências e funcionalidades selecionadas pelo usuário.
-3. Se o tipo de recomendação selecionado for "SingleProduct", o serviço deve retornar apenas um produto que corresponda melhor às preferências e funcionalidades do usuário.
-4. Se o tipo de recomendação selecionado for "MultipleProducts", o serviço deve retornar uma lista de produtos que correspondam às preferências e funcionalidades do usuário.
-5. Em caso de empate na seleção de produtos com base nas preferências e funcionalidades do usuário, o serviço deve retornar o último produto que atende aos critérios de seleção.
-6. O serviço deve ser capaz de lidar com diferentes tipos de preferências e funcionalidades selecionadas pelo usuário.
-7. O serviço deve ser modular e facilmente extensível para futuras atualizações e adições de funcionalidades.
+🚀 Technologies Used
 
-Certifique-se de que todos os critérios de aceite são atendidos durante o desenvolvimento do projeto.
+[![My Skills](https://skillicons.dev/icons?i=react,tailwind,js)](https://skillicons.dev)
 
-## Autor
+📸 Demo
 
-Desenvolvido por Cléber Severo
+📍 Home Screen
 
-## Licença
+<img width=70% textAlign="center" src="./frontend/public/screenshots/desktop.png" alt="desktop">
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+### Mobile
+
+<img width=70% textAlign="center" src="./frontend/public/screenshots/desktop.png" alt="desktop">
+
+🔧 How to Run the Project
+
+Be sure to use a Node version 18.3 or higher
+
+Clone the repository:
+
+```
+git clone https://github.com/Cleber-Severo/products-recommendation.git
+```
+
+Navigate to the project folder:
+
+```
+cd ./products-recommendation
+```
+
+Install dependencies:
+
+```
+yarn install
+```
+
+Execute Installation Script
+
+```
+./install.sh
+```
+
+Start the application
+
+```
+yarn start
+```
+
+## Recomendação de Produto
+
+Um sistema de recomendação de produtos desenvolvido com React, TailwindCSS e uma API simulada utilizando o json-server.
+
+📌 Funcionalidades
+
+- [x] Formulário de preferências do usuário (escolha múltipla)
+- [x] Lógica de recomendação de produto único e múltiplos produtos
+- [x] Lista visual de produtos recomendados
+- [x] Selos dinâmicos e ícones
+- [x] Arquitetura modular
+- [x] Testes unitários para a lógica de negócio
+
+🚀 Técnologias Utilizadas
+
+[![My Skills](https://skillicons.dev/icons?i=react,tailwind,js)](https://skillicons.dev)
+
+📸 Demo
+
+📍 Página Inicial
+
+<img width=70% textAlign="center" src="./frontend/public/screenshots/desktop.png" alt="desktop">
+
+### Mobile
+
+<img width=70% textAlign="center" src="./frontend/public/screenshots/desktop.png" alt="desktop">
+
+🔧 Como rodar o projeto
+
+Se certifique de estar na versão 18.3 do Node ou superior
+
+Clone o repositório:
+
+```
+git clone https://github.com/Cleber-Severo/products-recommendation.git
+```
+
+Navegue até a pasta do projeto:
+
+```
+cd ./products-recommendation
+```
+
+Instale as dependências:
+
+```
+yarn install
+```
+
+Execute o script de instalação:
+
+```
+./install.sh
+```
+
+Inicie a Aplicação
+
+```
+yarn start
+```
