@@ -28,6 +28,6 @@ jobs:
         working-directory: ./frontend
         run: yarn test
 
-     - name: Build app for production
+      - name: Build app for production
         working-directory: ./frontend
         run: yarn build
