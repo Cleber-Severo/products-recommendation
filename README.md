@@ -1,10 +1,10 @@
 ## Product Recommender
 
-[🇬🇧 English](#product-recommender-english) | [🇧🇷 Português](#recomendação-produto-português)
+[🇬🇧 English](#products-recommender) | [🇧🇷 Português](#Recomendação-de-Produtos)
 
 ---
 
-## Product Recommender English
+## Products Recommender
 
 A product recommendation system built with React, TailwindCSS, and a simulated API using json-server.
 
@@ -65,7 +65,7 @@ Start the application
 yarn start
 ```
 
-## Recomendação de Produto
+## Recomendação de Produtos
 
 Um sistema de recomendação de produtos desenvolvido com React, TailwindCSS e uma API simulada utilizando o json-server.
 
