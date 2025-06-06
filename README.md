@@ -36,6 +36,7 @@ A product recommendation system built with React, TailwindCSS, and a simulated A
 Be sure to use a Node version 18.3 or higher
 
 1. Clone the repository
+
 ```
 git clone https://github.com/Cleber-Severo/products-recommendation.git
 cd ./products-recommendation
@@ -48,11 +49,13 @@ yarn install
 ```
 
 3. Execute Installation Script
+
 ```
 ./install.sh
 ```
 
 4. Start the application
+
 ```
 yarn start
 ```
@@ -92,27 +95,31 @@ Um sistema de recomendação de produtos desenvolvido com React, TailwindCSS e u
 
 <img width=30% textAlign="center" src="./frontend/public/screenshots/mobile.png" alt="desktop">
 
-🔧 Como rodar o projeto
+### 🔧 Como rodar o projeto
 
 Se certifique de estar na versão 18.3 do Node ou superior
 
 1. Clone o repositório
+
 ```
 git clone https://github.com/Cleber-Severo/products-recommendation.git
 cd ./products-recommendation
 ```
 
 2. Instale as dependências
+
 ```
 yarn install
 ```
 
 3. Execute o script de instalação
+
 ```
 ./install.sh
 ```
 
 4. Inicie a Aplicação
+
 ```
 yarn start
 ```
