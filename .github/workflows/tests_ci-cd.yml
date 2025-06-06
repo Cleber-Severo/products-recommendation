@@ -32,6 +32,9 @@ jobs:
         working-directory: ./frontend
         run: yarn test
 
+      - name: Update caniuse-lite database
+        run: npx update-browserslist-db@latest
+
       - name: Build app for production
         working-directory: ./frontend
         run: yarn build
