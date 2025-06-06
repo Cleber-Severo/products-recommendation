@@ -23,15 +23,15 @@ A product recommendation system built with React, TailwindCSS, and a simulated A
 
 📸 Demo
 
-📍 Home Screen
+### 📍 Home Screen
 
 <img width=70% textAlign="center" src="./frontend/public/screenshots/desktop.png" alt="desktop">
 
 ### Mobile
 
-<img width=70% textAlign="center" src="./frontend/public/screenshots/desktop.png" alt="desktop">
+<img width=70% textAlign="center" src="./frontend/public/screenshots/mobile.png" alt="desktop">
 
-🔧 How to Run the Project
+### 🔧 How to Run the Project
 
 Be sure to use a Node version 18.3 or higher
 
@@ -65,6 +65,12 @@ Start the application
 yarn start
 ```
 
+📜 License
+
+This project is licensed under the MIT License. Feel free to use and modify it!
+
+Developed with ❤️ by Cléber Severo 🚀
+
 ## Recomendação de Produtos
 
 Um sistema de recomendação de produtos desenvolvido com React, TailwindCSS e uma API simulada utilizando o json-server.
@@ -84,13 +90,13 @@ Um sistema de recomendação de produtos desenvolvido com React, TailwindCSS e u
 
 📸 Demo
 
-📍 Página Inicial
+### 📍 Página Inicial
 
 <img width=70% textAlign="center" src="./frontend/public/screenshots/desktop.png" alt="desktop">
 
 ### Mobile
 
-<img width=70% textAlign="center" src="./frontend/public/screenshots/desktop.png" alt="desktop">
+<img width=70% textAlign="center" src="./frontend/public/screenshots/mobile.png" alt="desktop">
 
 🔧 Como rodar o projeto
 
@@ -125,3 +131,9 @@ Inicie a Aplicação
 ```
 yarn start
 ```
+
+📜 Licença
+
+Este projeto está licenciado sob a MIT License. Sinta-se livre para utilizá-lo e modificá-lo!
+
+Desenvolvido com ❤️ por Cléber Severo 🚀
