@@ -30,7 +30,7 @@ function App() {
         <div>
           <Form setRecommendations={setRecommendations} />
         </div>
-        <div>
+        <div className="max-h-[900px] overflow-auto">
           <RecommendationList recommendations={recommendations} />
         </div>
       </div>
